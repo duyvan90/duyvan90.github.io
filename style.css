@@ -316,6 +316,19 @@ section::before {
     font-weight: bold;
 }
 
+/* --- 4.5. PHẦN CÔNG CỤ (TOOLS) - (Thêm mới) --- */
+.tools {
+    /* Tạm dùng lại ảnh nền của About (2.jpg) để xen kẽ. 
+       Bạn có thể đổi sang ảnh khác (ví dụ: new-bg.jpg) */
+    background-image: url('2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.tools::before {
+    background-color: rgba(18, 18, 18, 0.85);
+}
+
 /* --- 5. PHẦN DỰ ÁN (PROJECTS) - CÓ ẢNH NỀN RIÊNG --- */
 .projects {
     background-image: url('4.jpg'); 
